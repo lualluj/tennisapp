@@ -1,0 +1,52 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Front/img/login5.jpg'); /* Mueve la imagen aquí */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Lo coloca detrás del contenido */
+}
+
+#title{
+    color: white;
+}
+
+button{
+    background-color: #BF7B54!important;
+    border-color: transparent!important;
+    
+}
+
+.navbar-brand {
+    color: white;
+}
+
+#logo{
+
+}
+#password {
+    
+}
+
+/* Celular */
+
+@media screen and (max-width: 430px) {
+    .background {
+        filter: blur(8px);
+      }
+
+    #formTitle{
+        align-items: center !important; /* Centra los elementos en pantallas pequeñas */
+    }
+
+    .card form{
+        text-align: start!important;
+    }
+
+    #title{
+        margin-top: 0rem!important;
+    }
+}

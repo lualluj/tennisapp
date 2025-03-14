@@ -1,0 +1,47 @@
+#navbar-logo {
+   width: 100%;
+   height: 100%;
+}
+
+body{
+   background-color: #F2F2F2;
+}
+
+#accessbutton{
+   background-color: #bf7b54d2;
+   border-color: transparent;
+}
+
+/* Precios */
+
+#cemento{
+   background-color: #145E8C;
+   color: #F2F2F2;
+}
+
+#polvoladrillo {
+   background-color: #bf7b54d2;
+   color: #F2F2F2;
+}
+
+#maquina{
+   background-color: #A1BF39;
+   color: #F2F2F2;
+}
+
+#fronton{
+   background-color: #F2F2F2!important;
+   color: black!important;
+}
+
+#calendardate{
+   background-color: #F2F2F2;
+   border-color: #145E8C;
+   border-radius: 8px;
+   padding: 2px;
+}
+
+.card{
+   margin-right: 2rem;
+   margin-left: 2rem;
+}

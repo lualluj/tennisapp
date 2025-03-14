@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="bootstrap-css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/loginstyle.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg py-3">
+    <div class="container-fluid">
+      <div class="d-flex align-items-center" id="logo">
+        <img src="./img/clublogo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-top me-3">
+      </div>
+      <div class="d-flex ms-auto">
+        <!-- Botón visible en pantallas grandes -->
+        <button class="btn btn-primary d-none d-md-inline" type="button" onclick="window.location.href='index.html'">
+          Página Principal
+        </button>
+        <!-- Ícono visible solo en pantallas pequeñas -->
+        <button class="btn btn-secondary d-md-none" type="button" onclick="window.location.href='index.html'">
+          <i class="bi bi-house fs-4"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="background"></div>
+  <div class="container px-4 py-5 px-md-5 text-center text-lg-start">
+    <div class="d-flex flex-column align-items-end" id="formTitle">
+      <div class="col-lg-4 mb-4 text-lg-center pe-5 text-center">
+        <h1 class="mt-5 display-5 fw-bold ls-tight" id="title">
+          Espacio Tenis <br>Piriápolis <br/>
+        </h1>
+      </div>
+
+      <div class="card bg-glass w-100" style="max-width: 400px;">
+        <div class="card-body px-4 py-5 px-md-5">
+          <h3 class="pb-3">¡Bienvenido/a!</h3>
+          <form>    
+            <!-- Cédula de Identidad input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <label class="form-label" for="form3Example3">Cédula de Identidad</label>
+              <input type="number" id="form3Example3" class="form-control" required/>
+            </div>
+
+            <!-- Fecha de nacimiento input -->
+            <div data-mdb-input-init class="form-outline mb-2">
+              <label class="form-label" for="password">Fecha de nacimiento</label>
+              <input type="date" id="password" class="form-control" required />
+            </div>
+
+            <!-- Submit button -->
+            <div class="d-grid gap-2 pt-3 d-md-flex justify-content-md-end">
+              <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
+                Ingresar
+              </button>
+            </div>
+
+            <!-- Registro de cuenta -->
+            <div class="text-center">
+              <p>¿No tenés cuenta?</p>
+              <p>Hace click acá</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="bootstrap-js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
