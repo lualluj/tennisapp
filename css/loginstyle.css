@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/Front/img/login5.jpg'); /* Mueve la imagen aquí */
+    background-image: url('/img/login5.jpg'); /* Mueve la imagen aquí */
     background-size: cover;
     background-position: center;
     z-index: -1; /* Lo coloca detrás del contenido */
