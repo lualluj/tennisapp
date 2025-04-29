@@ -1,3 +1,5 @@
+/*Nav bar*/
+
 #navbar-logo {
    width: 100%;
    height: 100%;
@@ -11,6 +13,41 @@ body{
    background-color: #bf7b54d2;
    border-color: transparent;
 }
+
+
+/*Reserva*/
+
+#gameTypeGroup .card{
+   
+}
+
+/*Tarjetas tipo de juego*/
+
+.card{
+   margin-right: 2em;
+   margin-left: 2em;
+}
+
+.card:hover {
+   cursor: pointer;
+ }
+ 
+/*Tarjetas seleccionadas*/
+.selected {
+    border: 2px solid #bf7b54d2; /* Borde azul */
+}
+
+.card-group > .card.selected {
+   border-left: 2px solid #bf7b54d2; /* para sobreescribir bootstrap y aplique el borde izquierdo al ser seleccionado*/
+   border-radius: 8px;
+}
+
+.selected .card-img-top {
+   border-top-left-radius: 6px !important;
+   border-top-right-radius: 2px !important;
+}
+
+
 
 /* Precios */
 
@@ -41,7 +78,18 @@ body{
    padding: 2px;
 }
 
-.card{
-   margin-right: 2rem;
-   margin-left: 2rem;
-}
+/*Calendario reserva*/
+
+#calendar {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+ }
+ .flatpickr-calendar {
+   margin: 0 auto;
+ }
+
+ .flatpickr-day.selected{
+   background: #bf7b54d2 !important;
+   border-color: #bf7b54d2 !important;
+ }
